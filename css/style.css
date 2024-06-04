@@ -1,0 +1,67 @@
+/* general font */
+
+@font-face {
+  font-family:'Titillium Web' ;
+  src: url("../font/TitilliumWeb-SemiBold.ttf");
+}
+
+body {
+  background: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 50px;
+  margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+input{
+  background-color: transparent !important;
+  color: white;
+  height:50px;
+  font-size: 20px;
+
+}
+
+
+
+button{
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #17a2b8;
+  color:#17a2b8;
+  transition: 1s;
+  height:50px;
+  font-size: 20px;
+}
+button:hover{
+  background-color: #17a2b8;
+  color: white;
+ 
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  /* box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25); */
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration:underline;
+}
